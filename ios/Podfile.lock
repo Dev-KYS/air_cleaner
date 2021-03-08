@@ -1,21 +1,69 @@
 PODS:
   - Flutter (1.0.0)
+  - flutter_ble_lib (2.3.1):
+    - Flutter
+    - MultiplatformBleAdapter (~> 0.1.7)
+  - flutter_blue (0.0.1):
+    - Flutter
+    - flutter_blue/Protos (= 0.0.1)
+  - flutter_blue/Protos (0.0.1):
+    - Flutter
+    - Protobuf (~> 3.11.4)
+  - flutter_bluetooth_serial (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
   - hexcolor (0.0.1):
     - Flutter
+  - MultiplatformBleAdapter (0.1.7)
+  - "permission_handler (5.0.1+1)":
+    - Flutter
+  - Protobuf (3.11.4)
+  - Toast (4.0.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - flutter_ble_lib (from `.symlinks/plugins/flutter_ble_lib/ios`)
+  - flutter_blue (from `.symlinks/plugins/flutter_blue/ios`)
+  - flutter_bluetooth_serial (from `.symlinks/plugins/flutter_bluetooth_serial/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
   - hexcolor (from `.symlinks/plugins/hexcolor/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MultiplatformBleAdapter
+    - Protobuf
+    - Toast
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  flutter_ble_lib:
+    :path: ".symlinks/plugins/flutter_ble_lib/ios"
+  flutter_blue:
+    :path: ".symlinks/plugins/flutter_blue/ios"
+  flutter_bluetooth_serial:
+    :path: ".symlinks/plugins/flutter_bluetooth_serial/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
   hexcolor:
     :path: ".symlinks/plugins/hexcolor/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
 
 SPEC CHECKSUMS:
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_ble_lib: 12143505774d055781b836052cf0b2c2a2257b0b
+  flutter_blue: eeb381dc4727a0954dede73515f683865494b370
+  flutter_bluetooth_serial: a42f785e4f7d2a6390d415cc39da5474ec2fef4f
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
   hexcolor: fdfb9c4258ad96e949c2dbcdf790a62194b8aa89
+  MultiplatformBleAdapter: 975cfb2a333b2c42b7a11628bd100ccb61872da2
+  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+  Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 

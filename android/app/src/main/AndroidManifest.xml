@@ -1,7 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.air_cleaner">
-   <application
-        android:label="air_cleaner"
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:label="Air-V Puri"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
